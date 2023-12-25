@@ -1,10 +1,17 @@
 import React from 'react'
-
-import { ExampleComponent } from 'buttonbyz'
+import { Button } from 'buttonbyz'
 import 'buttonbyz/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button type='primary'>Primary Button</Button>
+      <Button type='default'>Default Button</Button>
+      <Button type='dashed'>Dashed Button</Button>
+      <Button type='text'>Text Button</Button>
+      <Button type='link'>Link Button</Button>
+    </>
+  )
 }
 
 export default App
