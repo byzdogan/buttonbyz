@@ -17,12 +17,12 @@ npm install --save buttonbyz
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'buttonbyz'
+import { Button } from 'buttonbyz'
 import 'buttonbyz/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button>Click</Button>
   }
 }
 ```
